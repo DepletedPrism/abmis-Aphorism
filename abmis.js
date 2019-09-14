@@ -35,7 +35,7 @@ abmis[29] = "在？";
 abmis[30] = "斯~~";
 abmis[31] = "字符串还要学么？";
 abmis[32] = "去你丫的";
-abmis[33] = "凎";
+abmis[33] = "淦";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
