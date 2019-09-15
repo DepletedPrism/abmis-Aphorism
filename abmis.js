@@ -1,4 +1,4 @@
-﻿var len = 34;
+﻿var len = 35;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -36,6 +36,7 @@ abmis[30] = "斯~~";
 abmis[31] = "字符串还要学么？";
 abmis[32] = "去你丫的";
 abmis[33] = "淦";
+abmis[34] = "5 min 手打 Splay 不是 OIer 的基本素养吗?";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
