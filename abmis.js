@@ -38,7 +38,7 @@ abmis[32] = "去你丫的";
 abmis[33] = "淦";
 abmis[34] = "5 min 手打 Splay 不是 OIer 的基本素养吗?";
 abmis[35] = "学信息竞赛，我不仅要自带电脑，还要自带被子！";
-abmis[36] = "在，联 ji 吗？";
+abmis[36] = "在，来颓吗？";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
