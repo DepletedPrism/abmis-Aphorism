@@ -1,4 +1,4 @@
-var len = 37;
+var len = 46;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -39,6 +39,15 @@ abmis[33] = "淦";
 abmis[34] = "5 min 手打 Splay 不是 OIer 的基本素养吗?";
 abmis[35] = "学信息竞赛，我不仅要自带电脑，还要自带被子！";
 abmis[36] = "在，来颓吗？";
+abmis[37] = "CF 题太水了...";
+abmis[38] = "我真的会被骂";
+abmis[39] = "因为我最近闲的蛋疼";
+abmis[40] = "SPFA 配 DP，没意思";
+abmis[41] = "我也想考线段树优化建图，但是太简单没意思";
+abmis[42] = "哇操";
+abmis[43] = "（思考）";
+abmis[44] = "要不我们卡常吧！";
+abmis[45] = "昨天晚上我回去想了一道线段树维护图的联通性的题";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
