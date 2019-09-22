@@ -1,4 +1,4 @@
-var len = 46;
+var len = 47;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -48,6 +48,7 @@ abmis[42] = "哇操";
 abmis[43] = "（思考）";
 abmis[44] = "要不我们卡常吧！";
 abmis[45] = "昨天晚上我回去想了一道线段树维护图的联通性的题";
+abmis[46] = "网络流 24 道大水题"
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
