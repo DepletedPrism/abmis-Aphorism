@@ -1,4 +1,4 @@
-var len = 55;
+var len = 58;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -57,6 +57,9 @@ abmis[51] = "大凡我出的锅，不 debug 三个小时是不会出来的";
 abmis[52] = "嗯...";
 abmis[53] = "妙啊，嗯，是的";
 abmis[54] = "我常数大，有问题吗？？？";
+abmis[55] = "是的，逻辑带师啊！";
+abmis[56] = "你别急，我要先颓（ㄊㄨㄟˋ）废会"
+abmis[57] = "嗯，你不知道路短最什么意思吗？"
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
