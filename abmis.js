@@ -1,4 +1,4 @@
-var len = 47;
+var len = 55;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -48,7 +48,15 @@ abmis[42] = "哇操";
 abmis[43] = "（思考）";
 abmis[44] = "要不我们卡常吧！";
 abmis[45] = "昨天晚上我回去想了一道线段树维护图的联通性的题";
-abmis[46] = "网络流 24 道大水题"
+abmis[46] = "网络流 24 道大水题";
+abmis[47] = "学什么 Splay 啊，用 FHQ 哇";
+abmis[48] = "你做个人吧！";
+abmis[49] = "做人，可以但没有必要。";
+abmis[50] = "你代码太丑了，看看我写的代码";
+abmis[51] = "大凡我出的锅，不 debug 三个小时是不会出来的";
+abmis[52] = "嗯...";
+abmis[53] = "妙啊，嗯，是的";
+abmis[54] = "我常数大，有问题吗？？？";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
