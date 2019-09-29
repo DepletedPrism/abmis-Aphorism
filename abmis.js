@@ -61,7 +61,7 @@ abmis[55] = "是的，逻辑带师啊！";
 abmis[56] = "你别急，我要先颓（ㄊㄨㄟˋ）废会";
 abmis[57] = "嗯，你不知道路短最什么意思吗？";
 abmis[58] = "你学网络流，做过贪吃蛇吗？";
-abmis[59] = "是的，但和我又有什么关系？";
+abmis[59] = "是的，但和我这只鸽子又有什么关系？";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
