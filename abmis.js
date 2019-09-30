@@ -1,4 +1,4 @@
-var len = 60;
+var len = 63;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -62,6 +62,9 @@ abmis[56] = "你别急，我要先颓（ㄊㄨㄟˋ）废会";
 abmis[57] = "嗯，你不知道路短最什么意思吗？";
 abmis[58] = "你学网络流，做过贪吃蛇吗？";
 abmis[59] = "是的，但和我这只鸽子又有什么关系？";
+abmis[60] = "网络流的题，都是红题难度。";
+abmis[61] = "数据结构题，还不能评红吗？";
+abmis[62] = "真狠啊.";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
