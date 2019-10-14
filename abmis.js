@@ -1,4 +1,4 @@
-var len = 65;
+var len = 66;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -67,6 +67,7 @@ abmis[61] = "数据结构题，还不能评红吗？";
 abmis[62] = "真狠啊.";
 abmis[63] = "我大神族竟然会为吃喝发愁！";
 abmis[64] = "斜率优化不是乱学？！";
+abmis[65] = "你个带毒瘤！";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
