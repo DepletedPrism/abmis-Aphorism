@@ -1,4 +1,4 @@
-var len = 71;
+var len = 72;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -73,6 +73,7 @@ abmis[67] = "遇事不觉线段树啊";
 abmis[68] = "大括号不换行，你代码会 T 的。";
 abmis[69] = "怎么一个个就又开始了";
 abmis[70] = "我太帅了所以不会被机惨。";
+abmis[71] = "Google 倒闭了你不知道？？";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
