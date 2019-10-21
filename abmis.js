@@ -1,4 +1,4 @@
-var len = 74;
+var len = 79;
 var rnd = Math.floor(Math.random() * len + 1) - 1;
 var abmis = new Array(len);
 
@@ -76,6 +76,11 @@ abmis[70] = "我太帅了所以不会被机惨。";
 abmis[71] = "Google 倒闭了你不知道？？";
 abmis[72] = "不是啊";
 abmis[73] = "看到这个 tourist 了吗，大喊一声「我吊锤他」。";
+abmis[74] = "在？为什么要写 NOIp 的 DP，对您来说不是一眼题吗？";
+abmis[75] = "wdnmd";
+abmis[76] = "你有意见？";
+abmis[77] = "众所周知，Manjaro 内核比 Ubuntu 内核要好。";
+abmis[78] = "卜勒卜勒";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
