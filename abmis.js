@@ -1,4 +1,4 @@
-var len = 73;
+var len = 74;
 var rnd = Math.floor(Math.random() * len + 1) - 1;
 var abmis = new Array(len);
 
@@ -75,6 +75,7 @@ abmis[69] = "怎么一个个就又开始了";
 abmis[70] = "我太帅了所以不会被机惨。";
 abmis[71] = "Google 倒闭了你不知道？？";
 abmis[72] = "不是啊";
+abmis[73] = "看到这个 tourist 了吗，大喊一声「我吊锤他」。";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
