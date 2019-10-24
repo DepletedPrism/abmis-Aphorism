@@ -1,4 +1,4 @@
-var len = 81;
+var len = 82;
 var rnd = Math.floor(Math.random() * len + 1) - 1;
 var abmis = new Array(len);
 
@@ -83,6 +83,7 @@ abmis[77] = "众所周知，Manjaro 内核比 Ubuntu 内核要好。";
 abmis[78] = "卜勒卜勒";
 abmis[79] = "（DP 里哪个最简单啊）插头~";
 abmis[80] = "你丫的！";
+abmis[81] = "Vim 不是随便用，乱用？";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
