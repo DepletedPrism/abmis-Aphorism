@@ -1,4 +1,4 @@
-var len = 83;
+var len = 84;
 var rnd = Math.floor(Math.random() * len + 1) - 1;
 var abmis = new Array(len);
 
@@ -85,6 +85,7 @@ abmis[79] = "（DP 里哪个最简单啊）插头~";
 abmis[80] = "你丫的！";
 abmis[81] = "Vim 不是随便用，乱用？";
 abmis[82] = "你说的这个 ACM World Final, 它难吗?";
+abmis[83] = "我左边的人怎么这么巨呀, 我右边的人怎么这么强啊, 我怎么这么菜啊!";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
