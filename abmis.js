@@ -1,5 +1,5 @@
 var len = 86;
-var rnd = Math.floor(Math.random() * len + 1) - 1;
+var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
 abmis[0] = "简单得很！";
