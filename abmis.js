@@ -1,4 +1,4 @@
-var len = 89;
+var len = 91;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -91,6 +91,8 @@ abmis[85] = "板子题是不可能 WA 的, WA 了中午就去找小姐姐.";
 abmis[86] = "你家仙人掌不会动? 你家仙人掌太 low 了.";
 abmis[87] = "信 abmis, 得永生.";
 abmis[88] = "我多项式已经学通了.";
+abmis[89] = "我网络流从来没写丑过";
+abmis[90] = "我觉得 NOIp 可能会考计算几何.";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
