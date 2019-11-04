@@ -1,4 +1,4 @@
-var len = 91;
+var len = 92;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -93,6 +93,7 @@ abmis[87] = "信 abmis, 得永生.";
 abmis[88] = "我多项式已经学通了.";
 abmis[89] = "我网络流从来没写丑过";
 abmis[90] = "我觉得 NOIp 可能会考计算几何.";
+abmis[91] = "你看到没, Ynoi, 黄题.";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
