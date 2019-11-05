@@ -1,4 +1,4 @@
-var len = 92;
+var len = 96;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -94,11 +94,15 @@ abmis[88] = "我多项式已经学通了.";
 abmis[89] = "我网络流从来没写丑过";
 abmis[90] = "我觉得 NOIp 可能会考计算几何.";
 abmis[91] = "你看到没, Ynoi, 黄题.";
+abmis[92] = "你看这题题解能看懂? 看我代码.";
+abmis[93] = "嗯呀, 我的代码常数又小, 又好看!";
+abmis[94] = "你看我代码常数已经大到写树状数组板子题都会 T 了!";
+abmis[95] = "(题解代码太难看了) 看我的代码呀! 多好看.";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
     data = JSON.parse(data);
   $('#hitokoto-loader').removeClass('active');
   $('#hitokoto-content').css('display', '').text(abmis[rnd]);
-  $('#hitokoto-from').css('display', '').text('——' + 'abmis');
+  $('#hitokoto-from').css('display', '').text('——abmis');
 }); 
