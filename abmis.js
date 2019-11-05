@@ -1,4 +1,4 @@
-var len = 96;
+var len = 99;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -98,11 +98,14 @@ abmis[92] = "你看这题题解能看懂? 看我代码.";
 abmis[93] = "嗯呀, 我的代码常数又小, 又好看!";
 abmis[94] = "你看我代码常数已经大到写树状数组板子题都会 T 了!";
 abmis[95] = "(题解代码太难看了) 看我的代码呀! 多好看.";
+abmis[96] = "我仿佛是个煞笔。";
+abmis[97] = "艹";
+abmis[98] = "别急，我快口胡完了。";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
     data = JSON.parse(data);
   $('#hitokoto-loader').removeClass('active');
   $('#hitokoto-content').css('display', '').text(abmis[rnd]);
-  $('#hitokoto-from').css('display', '').text('——abmis');
+  $('#hitokoto-from').css('display', '').text('——' + 'abmis');
 }); 
