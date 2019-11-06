@@ -101,7 +101,7 @@ abmis[95] = "(题解代码太难看了) 看我的代码呀! 多好看.";
 abmis[96] = "我仿佛是个煞笔。";
 abmis[97] = "艹";
 abmis[98] = "别急，我快口胡完了。";
-abmis[99] = "您这么又在切黑题呀?";
+abmis[99] = "您怎么又在切黑题呀?";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
