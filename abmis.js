@@ -1,4 +1,4 @@
-var len = 100;
+var len = 101;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -102,6 +102,7 @@ abmis[96] = "我仿佛是个煞笔。";
 abmis[97] = "艹";
 abmis[98] = "别急，我快口胡完了。";
 abmis[99] = "您怎么又在切黑题呀?";
+abmis[100] = "k-D 树链剖分!";
 
 $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   if (typeof data === 'string')
@@ -109,4 +110,4 @@ $.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
   $('#hitokoto-loader').removeClass('active');
   $('#hitokoto-content').css('display', '').text(abmis[rnd]);
   $('#hitokoto-from').css('display', '').text('——' + 'abmis');
-}); 
+});
