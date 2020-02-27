@@ -104,10 +104,11 @@ abmis[98] = "别急，我快口胡完了。";
 abmis[99] = "您怎么又在切黑题呀?";
 abmis[100] = "k-D 树链剖分!";
 
-$.get('https://sslapi.hitokoto.cn/?c=a', function (data) {
-  if (typeof data === 'string')
-    data = JSON.parse(data);
+$.get('https://v1.hitokoto.cn/?c=a', function (data) {
+  if (typeof data === 'string') data = JSON.parse(data);
   $('#hitokoto-loader').removeClass('active');
   $('#hitokoto-content').css('display', '').text(abmis[rnd]);
-  $('#hitokoto-from').css('display', '').text('——' + 'abmis');
+  if (data.from) {
+      $('#hitokoto-from').css('display', '').text('——' + 'abmis');
+  }
 });
