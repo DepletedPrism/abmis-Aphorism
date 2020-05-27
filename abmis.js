@@ -1,4 +1,4 @@
-var len = 101;
+var len = 102;
 var rnd = Math.floor(Math.random() * len);
 var abmis = new Array(len);
 
@@ -103,6 +103,7 @@ abmis[97] = "艹";
 abmis[98] = "别急，我快口胡完了。";
 abmis[99] = "您怎么又在切黑题呀?";
 abmis[100] = "k-D 树链剖分!";
+abmis[101] = "我都打算去郑大了!";
 
 $('#hitokoto-loader').removeClass('active');
 $('#hitokoto-content').css('display', '').text(abmis[rnd]);
